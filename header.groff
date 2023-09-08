@@ -1,0 +1,17 @@
+.po 2
+.hm 1
+.fm 1
+
+.TL
+Wiatr Solarny - Piosenki
+.AU
+Marcin Koziej
+
+
+.LP      "no indent para
+.bp
+.ps 9p  " font
+.vs 12p  " line size
+.ft CR   "courier regular
+.nf     " no fill - RAW format
+
