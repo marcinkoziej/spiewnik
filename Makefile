@@ -8,6 +8,9 @@ piosenki.pdf: *.uku header.groff
   #              ^ unicode
   #                 ^^^^^^^^^^^^^^^^^ paper
   #
+
+piosenki-a4.pdf: *.uku header.groff
+	groff -Tpdf -k  -ms header.groff $(shell for x in *.uku; do echo $$x page.groff; done) > $@
 clean:
 	rm -f piosenki.pdf
 
